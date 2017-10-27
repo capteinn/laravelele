@@ -22,3 +22,7 @@ Route::get('/about', function () {
 Route::get('/pesan', function () {
 	return view('pesan');
 });
+
+Route::get('/pesan/kirim', function () {
+	return view('pesan_kirim');
+});

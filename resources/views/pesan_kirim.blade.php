@@ -79,18 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Pesan
+                    Pesan Anda
                 </div>
 
                 <div class="links">
-					{!! Form::open(array('url' =>
-						'pesan/kirim','method'=>'POST')) !!}
-					<div>
-						<strong>Pesan : </strong>
-						{!! Form::text('pesan', null,
-						array('placeholder' => 'Tuliskan pesan','class' => 'form-control')) !!}
-						<button type="submit" class="btn-btn-primary">Kirim</button>
-					</div>
+					<p><?php echo $_POST['pesan']; ?></p>
 					<br>
 					<br>
 					<br>
