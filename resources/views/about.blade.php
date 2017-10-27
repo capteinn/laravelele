@@ -79,13 +79,19 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Belajar Laravel
+                    About
                 </div>
 
                 <div class="links">
-                    <a href="pesan">Pesan</a>
+                    Ini adalah project Laravel Pertamaku
+					<br>
+					<br>
+					<br>
+					<br>
+					<a href="/">Home</a>
+					<!--<a href="pesan">Pesan</a>
                     <a href="about">About</a>
-                    <!--<a href="https://laravel-news.com">News</a>
+                    <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>-->
                 </div>
